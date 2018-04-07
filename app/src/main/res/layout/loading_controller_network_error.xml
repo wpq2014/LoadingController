@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clickable="true"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:paddingTop="50dp">
+
+    <ImageView
+        android:id="@+id/loading_controller_iv_network_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loading_controller_ic_network_error"/>
+
+    <TextView
+        android:id="@+id/loading_controller_tv_network_error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="@string/LoadingController_network_error_message"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/loading_controller_tv_network_error_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/loading_controller_bg_retry"
+        android:gravity="center"
+        android:minWidth="140dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:text="重新加载"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoadingController</string>
+
+    <!-- LoadingController -->
+    <string name="LoadingController_loading_message">加载中</string>
+    <string name="LoadingController_network_error_message">网络连接错误</string>
+    <string name="LoadingController_error_message">加载失败，请稍后重试~</string>
+    <string name="LoadingController_retry">重新加载</string>
+    <string name="LoadingController_empty_message">暂无数据</string>
+
+</resources>
