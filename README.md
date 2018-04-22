@@ -1,2 +1,2 @@
 # LoadingController
-For Android loading, error, empty state switching
+android loading、error、empty 页面状态切换
