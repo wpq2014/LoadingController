@@ -1,6 +1,6 @@
-package com.wpq.loading_controller.demo;
+package com.wpq.loadingcontroller.demo;
 
-import com.wpq.loading_controller.LoadingControllerManager;
+import com.wpq.loadingcontroller.LoadingControllerManager;
 
 /**
  * @author wupuquan

@@ -1,4 +1,4 @@
-package com.wpq.loading_controller.library;
+package com.wpq.loadingcontroller.library;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

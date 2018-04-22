@@ -1,4 +1,4 @@
-package com.wpq.loading_controller.demo;
+package com.wpq.loadingcontroller.demo;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.wpq.loading_controller.LoadingController;
-import com.wpq.loading_controller.LoadingInterface;
+import com.wpq.loadingcontroller.LoadingController;
+import com.wpq.loadingcontroller.LoadingInterface;
 
 public class MainActivity extends AppCompatActivity {
 

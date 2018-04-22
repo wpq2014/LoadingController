@@ -1,4 +1,4 @@
-package com.wpq.loading_controller.library;
+package com.wpq.loadingcontroller.demo;
 
 import org.junit.Test;
 

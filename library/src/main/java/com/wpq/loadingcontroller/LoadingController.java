@@ -1,4 +1,4 @@
-package com.wpq.loading_controller;
+package com.wpq.loadingcontroller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -105,14 +105,16 @@ public class LoadingController implements LoadingInterface {
     public void showLoading(View customView) {
         if (customView != null) {
             loadingView = customView;
-        } else {
-            if (loadingView == null && LoadingControllerManager.getInstance().getLoadingLayoutId() != 0) {
-                loadingView = inflater.inflate(LoadingControllerManager.getInstance().getLoadingLayoutId(), null);
-            }
-        }
-        if (loadingView != null) {
             showView(loadingView);
+            return;
         }
+        if (loadingView == null && LoadingControllerManager.getInstance().getLoadingLayoutId() != 0) {
+            loadingView = inflater.inflate(LoadingControllerManager.getInstance().getLoadingLayoutId(), null);
+        }
+        if (loadingView == null) {
+            return;
+        }
+        showView(loadingView);
     }
 
     @Override

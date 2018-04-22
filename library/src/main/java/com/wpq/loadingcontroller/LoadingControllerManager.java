@@ -1,4 +1,4 @@
-package com.wpq.loading_controller;
+package com.wpq.loadingcontroller;
 
 /**
  * @author wupuquan
